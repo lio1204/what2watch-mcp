@@ -1,82 +1,17 @@
 {
-  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.lio1204/what2watch-mcp",
-  "description": "AI-powered entertainment discovery. Real-time TV schedules for 1000+ channels, streaming availability across Netflix/Disney+/HBO Max and more, free FAST channels, and personalized recommendations. Works with Claude & ChatGPT.",
+  "title": "What2Watch",
+  "description": "AI-powered entertainment discovery. Real-time TV schedules for 1000+ channels, streaming availability across Netflix/Disney+/HBO Max and more, free FAST channels, and personalized recommendations.",
   "version": "1.0.0",
   "repository": {
-    "type": "git",
-    "url": "https://github.com/lio1204/what2watch-mcp"
+    "url": "https://github.com/lio1204/what2watch-mcp",
+    "source": "github"
   },
   "remotes": [
     {
       "type": "sse",
       "url": "https://what2watch.live/sse"
     }
-  ],
-  "tools": [
-    {
-      "name": "get_recommendation",
-      "description": "Get personalized movie and TV recommendations based on mood, taste, platforms, and viewing history"
-    },
-    {
-      "name": "search_content",
-      "description": "Search for movies and shows by title, actor, director, genre, or keywords"
-    },
-    {
-      "name": "get_content_details",
-      "description": "Get full details about a specific movie or TV show including cast, plot, ratings, and streaming availability"
-    },
-    {
-      "name": "get_schedule",
-      "description": "Get real-time TV broadcast schedules - what's on live TV now or later"
-    },
-    {
-      "name": "get_trending",
-      "description": "See what's popular and trending right now across streaming platforms"
-    },
-    {
-      "name": "get_available_sources",
-      "description": "List all supported streaming platforms and TV channels"
-    }
-  ],
-  "prompts": [
-    {
-      "name": "what_to_watch",
-      "description": "Get personalized recommendations for 'I don't know what to watch'"
-    },
-    {
-      "name": "surprise_me",
-      "description": "Discover hidden gems and underrated content"
-    },
-    {
-      "name": "whats_on_tv",
-      "description": "Check what's on live TV tonight or now"
-    },
-    {
-      "name": "whats_trending",
-      "description": "See what's popular right now"
-    }
-  ],
-  "categories": [
-    "entertainment",
-    "media",
-    "streaming",
-    "tv"
-  ],
-  "keywords": [
-    "movies",
-    "tv shows",
-    "streaming",
-    "netflix",
-    "disney+",
-    "hbo max",
-    "recommendations",
-    "tv schedule",
-    "entertainment",
-    "what to watch"
-  ],
-  "author": {
-    "name": "What2Watch"
-  },
-  "license": "MIT"
+  ]
 }
